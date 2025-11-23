@@ -3,7 +3,7 @@ layout: post
 cover: false
 navigation: false
 title: Why Does It Bother Me if AI Creates the Music I Listen To?
-date: 1863-11-19 10:18:00
+date: 2025-11-23 15:00:00
 tags: AI and Society
 subclass: 'post ai'
 author: annab
