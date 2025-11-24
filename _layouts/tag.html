@@ -34,9 +34,13 @@ current: tag
             <h2 class="page-description">
             {% if tag_description %}
                 {{ tag_description }}
-            {% elsif page.tag %}
+            <!-- {% elsif page.tag %}
 			    A {{ paginator.total_posts }}-post collection
+            {% endif %} -->
+            {% elsif page.tag %}
+                Posts tagged with "{{ page.tag }}"
             {% endif %}
+
             </h2>
         </div>
     </div>
