@@ -1,6 +1,20 @@
 ---
-layout: tag
+layout: default
 tag: society
 title: AI and Society
 permalink: /tag/society/
 ---
+
+<h1>AI and Society</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% if post.tags contains "society" %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
