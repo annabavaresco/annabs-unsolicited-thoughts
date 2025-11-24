@@ -1,5 +1,5 @@
 ---
-layout: tagg
+layout: tag
 title: About
 navigation: true
 logo: 'assets/images/ghost.png'
