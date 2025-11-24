@@ -18,7 +18,7 @@ baseurl: /annabs-unsolicited-thoughts/
 
 # Permalinks
 # permalink: /:title
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 # permalink: /author/:username
 # permalink: /tag/:tag
 
