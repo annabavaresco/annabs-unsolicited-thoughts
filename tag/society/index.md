@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tag
 title: AI and Society
 navigation: true
 logo: 'assets/images/ghost.png'
