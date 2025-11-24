@@ -45,10 +45,26 @@ current: tag
     </div>
 </header>
 
-<!-- The main content area on the homepage -->
 <main id="content" class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
-    {% include loop.html %}
+    {% assign tagname = page.tag | downcase %}
+    {% assign tagged_posts = site.tags[tagname] %}
+
+    {% if tagged_posts %}
+        {% for post in tagged_posts %}
+            <article class="post">
+                <header class="post-header">
+                    <h2 class="post-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h2>
+                </header>
+                <section class="post-excerpt">
+                    <p>{{ post.excerpt }}</p>
+                </section>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>No posts found for this tag.</p>
+    {% endif %}
 
 </main>
