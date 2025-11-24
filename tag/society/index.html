@@ -7,3 +7,15 @@ current: tag/society
 tag: society
 ---
 
+<h1>Recipes</h1>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    {% if post.tags contains "society" %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
