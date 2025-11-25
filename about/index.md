@@ -2,9 +2,8 @@
 layout: author
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
 current: about
-author: anna
+cover: 'assets/images/DSC_1242.JPG'
 ---
 
 
