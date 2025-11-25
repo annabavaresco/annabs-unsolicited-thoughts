@@ -17,7 +17,7 @@
     {% for post in paginator.posts %}
     <article class="post">
         <header class="post-header">
-            <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url | remove: '/' }}">{{ post.title }}</a></h2>
+            <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         </header>
         <section class="post-excerpt">
             <p>{{ post.content | strip_html | truncatewords: 26 }} <a class="read-more" href="{{ site.baseurl }}{{ post.url | remove: '/' }}">&raquo;</a></p>
@@ -28,8 +28,8 @@
 
                 {% if author[1].assets %}<img class="author-thumb" src="{{ site.baseurl }}{{ author[1].assets }}" alt="Author image" nopin="nopin" />{% endif %}
                 <!-- author -->
-                <a href='{{ site.baseurl }}author/{{ post.author }}'>{{ author[1].name }}</a>
-
+                <!-- <a href='{{ site.baseurl }}author/{{ post.author }}'>{{ author[1].name }}</a> -->
+                <a>{{ author[1].name }}</a>
                 {% endif %}
             {% endfor %}
 
