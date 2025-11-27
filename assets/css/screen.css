@@ -590,7 +590,19 @@ body.nav-opened .site-wrapper {
     overflow: hidden;
 }
 
-.main-header .inner {
+.post-head {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 5rem;
+    text-align: center;
+    background: #222 no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main-header .post-head .inner {
     width: 80%;
 }
 
