@@ -36,11 +36,11 @@
             <!-- [[tags prefix=" on "]] -->
             {% if post.tags.size > 0 %}
                 on
-                {% for tag in post.tags %}
+                {% for description in post.tagdescriptions %}
                     {% if forloop.index == post.tags.size %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag.tagdescription }}</a>
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ description }}</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag.tagdescription }}</a>,
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ decription }}</a>,
                     {% endif %}
                 {% endfor %}
             {% endif %}
