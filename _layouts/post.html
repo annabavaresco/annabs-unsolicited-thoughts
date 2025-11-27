@@ -38,11 +38,11 @@ class: 'post-template'
                 <!-- [[tags prefix=" on "]] -->
                 {% if page.tags.size > 0 %}
                 on
-                {% for tag in page.tags %}
+                {% for description in page.tagdescriptions %}
                     {% if forloop.index == page.tags.size %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ description }}</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>,
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ description }}</a>,
                     {% endif %}
                 {% endfor %}
                 {% endif %}
