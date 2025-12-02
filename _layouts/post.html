@@ -38,11 +38,11 @@ class: 'post-template'
                 <!-- [[tags prefix=" on "]] -->
                 {% if page.tags.size > 0 %}
                 on
-                {% for description in page.tagdescriptions %}
+                {% for item in page.taginfo %}
                     {% if forloop.index == page.tags.size %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ description }}</a>
+                       <a href='{{ site.baseurl }}tag/{{ item.tag }}'>{{ item.description }}</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ description }}</a>,
+                       <a href='{{ site.baseurl }}tag/{{ item.tag }}'>{{ item.description }}</a>,
                     {% endif %}
                 {% endfor %}
                 {% endif %}
