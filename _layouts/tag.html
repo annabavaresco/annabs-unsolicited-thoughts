@@ -39,7 +39,7 @@ current: tag
 
 <main id="content" class="content" role="main">
 
-    {% assign tagname = page.taginfo.tag | downcase %}
+    {% assign tagname = page.tags[0] | downcase %}
     {% assign tagged_posts = site.tags[tagname] %}
 
     {% if tagged_posts %}
