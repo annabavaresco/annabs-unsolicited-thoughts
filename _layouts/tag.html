@@ -23,12 +23,12 @@ current: tag
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{ page.taginfo.description}}</h1>
+            <h1 class="page-title">{{ page.taginfo[0].description}}</h1>
             <h2 class="page-description">
             {% if page.taginfo.description %}
                 {{ page.taginfo.description }}
             {% elsif page.taginfo %}
-			    A collection of posts about {{ page.taginfo.tag }} {{ page.random }}
+			    A collection of posts about {{ page.taginfo[0].description }}
             {% endif %}
 
             </h2>
