@@ -34,13 +34,13 @@
             {% endfor %}
 
             <!-- [[tags prefix=" on "]] -->
-            {% if post.tags.size > 0 %}
+            {% if post.taginfo.size > 0 %}
                 on
-                {% for description in post.tagdescriptions %}
+                {% for item in page.taginfo %}
                     {% if forloop.index == post.tags.size %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ description }}</a>
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.description }}</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ decription }}</a>,
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.decription }}</a>,
                     {% endif %}
                 {% endfor %}
             {% endif %}
