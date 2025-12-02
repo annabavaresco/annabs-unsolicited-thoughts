@@ -40,7 +40,7 @@
                     {% if forloop.index == post.tags.size %}
                        <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.description }}</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.decription }}</a>,
+                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.description }}</a>,
                     {% endif %}
                 {% endfor %}
             {% endif %}
