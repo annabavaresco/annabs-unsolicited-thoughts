@@ -36,7 +36,7 @@
             <!-- [[tags prefix=" on "]] -->
             {% if post.taginfo.size > 0 %}
                 on
-                {% for item in page.taginfo %}
+                {% for item in post.taginfo %}
                     {% if forloop.index == post.taginfo.size %}
                        <a href='{{ site.baseurl }}tag/{{ item.tag }}'>{{ item.description }}</a>
                     {% else %}
