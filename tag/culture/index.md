@@ -9,4 +9,5 @@ taginfo:
   - tag: culture
     description: "AI and Culture"
 tag: culture
+random: culture
 ---
