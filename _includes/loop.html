@@ -37,7 +37,7 @@
             {% if post.taginfo.size > 0 %}
                 on
                 {% for item in page.taginfo %}
-                    {% if forloop.index == post.tags.size %}
+                    {% if forloop.index == post.taginfo.size %}
                        <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.description }}</a>
                     {% else %}
                        <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.description }}</a>,
