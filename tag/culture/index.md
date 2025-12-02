@@ -8,5 +8,5 @@ cover: 'assets/images/ai_and_culture.jpg'
 taginfo:
   - tag: culture
     description: "AI and Culture"
-tags: culture
+tag: culture
 ---
