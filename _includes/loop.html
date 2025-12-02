@@ -38,9 +38,9 @@
                 on
                 {% for item in page.taginfo %}
                     {% if forloop.index == post.taginfo.size %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.description }}</a>
+                       <a href='{{ site.baseurl }}tag/{{ item.tag }}'>{{ item.description }}</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ item.description }}</a>,
+                       <a href='{{ site.baseurl }}tag/{{ item.tag }}'>{{ item.description }}</a>,
                     {% endif %}
                 {% endfor %}
             {% endif %}
