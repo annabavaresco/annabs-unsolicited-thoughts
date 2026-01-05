@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/cosy_music.jpeg'
+cover: 'assets/images/ai-humans.jpeg'
 navigation: true
 title: The Humans Behind AI
 date: 2026-01-05 15:00:00
