@@ -9,7 +9,7 @@ author: annab
 categories: annab
 taginfo:
   - tag: society
-    description: "AI and society"
+    description: "AI and Society"
 tags: society
 ---
 
