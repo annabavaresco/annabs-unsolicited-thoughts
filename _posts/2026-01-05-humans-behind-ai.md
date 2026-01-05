@@ -1,0 +1,38 @@
+---
+layout: post
+cover: 'assets/images/cosy_music.jpeg'
+navigation: true
+title: The Humans Behind AI
+date: 2026-01-05 15:00:00
+subclass: 'post'
+author: annab
+categories: annab
+taginfo:
+  - tag: society
+    description: "AI and society"
+tags: society
+---
+
+Recently, one YouTuber I follow has been criticised for posting an AI-generated video on his Instagram account. This video was quite different from the usual, news-related content from his channel; it seemed like a nonsensical parody of a cartoon’s theme song, with the YouTuber himself as the main character.
+
+Despite the humorous intent, many perceived the video as contrasting with the principles promoted by the YouTuber and attacked it for two main reasons. First, the use of an energy-hungry technology for something as ‘silly’ as making a parodic video; second, the potential harm to professional cartoon makers, who increasingly see their valuable work replaced by AI.
+
+Beyond the controversy itself — I don’t particularly care about ‘who is right’ —, I find it interesting to reflect upon the widespread fear that ‘AI will take human jobs’, shared by many people beyond cartoon makers. At first glance, this concern could be seen as natural, and even expected: machines are _meant_ to replace human labour, as much as we like to think they are taking on solely the jobs nobody likes.
+
+Yet, most people don’t view AI as ‘just another machine’. Using modern chatbots rather gives the impression of interacting with hyperintelligent, almost superhuman beings. Indeed, these chatbots (appear to) master an amount of knowledge that no human being could possibly learn; on top of that, they express it (seemingly) effortlessly, displaying a command of language that most people can only achieve after several revisions of their texts.
+
+This ‘superhuman intelligence illusion’ is quite powerful and stems from many different aspects of the chatbot-human interaction. One of these is particularly useful for better understanding AI and putting some of the related concerns into perspective; it has to do with our perceiving a chatbot as an individual. In other words, we often (more or less consciously) have the impression that there is one, artificially intelligent mind behind the answers we obtain.
+
+Importantly, this impression comes from a very reasonable place: All our lives, we’ve been used to having one-to-one conversations with people and, as it happens, most interlocutors have only one mind orchestrating the responses they produce. This results in a ‘one interlocutor, one mind’ bias that is hard-wired in our ways of using language and, therefore, quite difficult to shake off.  
+
+However, as much as we are biased (and oftentimes even nudged) to believe so, chatbots don’t have a mind, don’t think (let alone reason) in any human-like way, and cannot be understood as individuals. They are rather products of enormous collective efforts; there are _many_ people involved in the different stages of creating a chatbot. To make this ‘many’ more concrete, the technical report of a recent large language model (what people commonly refer to as ‘AI’ or ‘chatbot’) lists dozens of authors, warning that “100 additional authors” are “not shown”. This is a large number, and it factors in only to the people who created the model; if we included all the humans who wrote the text this model was trained on*, the list would be interminable. 
+
+Let’s imagine we consulted thousands of people to get an answer to the same question asked of our favourite chatbot; would we still be equally amazed at the relevance and fluency of the answer? My guess is, probably not. This is not to imply that chatbots are not impressive — what they do would have been regarded as science fiction up to a few years ago. 
+
+Nevertheless, it is important to remind ourselves that what looks like artificial and superhuman intelligence is rather a very _human_ product. _People_ create and select the training data going into an AI model; _people_ decide how many parameters the model should have; which answers the model should give and which ones should be avoided; whether the model should be allowed to provide medical advice; whether it should engage in ‘adult’ conversations or not. And these people have jobs too, just like cartoon makers. 
+
+I don’t wish to take sides in this ‘AI vs. human professionals’ fight (human professionals have my deepest sympathy, for what it’s worth), but I do believe it is useful to reframe this contraposition. It’s not AI vs. humans; it is some humans (involved in creating, distributing, or regulating AI at any level) vs. other humans (either using AI as ‘laypeople’ or even seeing their jobs taken away by it). And we should be aware of humans in AI both when we marvel at chatbots’ capabilities and when we worry about potential risks involved in their widespread use. 
+
+
+
+*Many large language models are not trained on text written by humans, but on text generated by other models that were originally trained on human text. Besides the model-specific technicalities, I still argue that the source of the knowledge these models learn is ultimately human.
