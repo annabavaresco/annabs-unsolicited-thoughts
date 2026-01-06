@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/humans-ai.jpg'
+cover: 'assets/images/humans-ai.png'
 navigation: true
 title: The Humans Behind AI
 date: 2026-01-05 15:00:00
@@ -25,7 +25,7 @@ This ‘superhuman intelligence illusion’ is quite powerful and stems from man
 
 Importantly, this impression comes from a very reasonable place: All our lives, we’ve been used to having one-to-one conversations with people and, as it happens, most interlocutors have only one mind orchestrating the responses they produce. This results in a ‘one interlocutor, one mind’ bias that is hard-wired in our ways of using language and, therefore, quite difficult to shake off.  
 
-However, as much as we are biased (and oftentimes even nudged) to believe so, chatbots don’t have a mind, don’t think (let alone reason) in any human-like way, and cannot be understood as individuals. They are rather products of enormous collective efforts; there are _many_ people involved in the different stages of creating a chatbot. To make this ‘many’ more concrete, the technical report of a recent large language model (what people commonly refer to as ‘AI’ or ‘chatbot’) lists dozens of authors, warning that “100 additional authors” are “not shown”. This is a large number, and it factors in only to the people who created the model; if we included all the humans who wrote the text this model was trained on*, the list would be interminable. 
+However, as much as we are biased (and oftentimes even nudged) to believe so, chatbots don’t have a mind, don’t think (let alone reason) in any human-like way, and cannot be understood as individuals. They are rather products of enormous collective efforts; there are _many_ people involved in the different stages of creating a chatbot. To make this ‘many’ more concrete, the [technical report](https://arxiv.org/abs/2412.19437) of a recent large language model (what people commonly refer to as ‘AI’ or ‘chatbot’) lists dozens of authors, warning that “100 additional authors” are “not shown”. This is a large number, and it factors in only to the people who created the model; if we included all the humans who wrote the text this model was trained on*, the list would be interminable. 
 
 Let’s imagine we consulted thousands of people to get an answer to the same question asked of our favourite chatbot; would we still be equally amazed at the relevance and fluency of the answer? My guess is, probably not. This is not to imply that chatbots are not impressive — what they do would have been regarded as science fiction up to a few years ago. 
 
