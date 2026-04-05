@@ -1,0 +1,42 @@
+---
+layout: post
+cover: 'assets/images/neuroscience-ai.png'
+navigation: true
+title: Are recent generative AI models ‘thinking’ thanks to ‘brain-inspired’ design choices?
+subtitle: A case against using Neuroscience and Cognitive Science expressions to describe gen-AI models
+date: 2026-04-04 16:00:00
+subclass: 'post'
+author: annab
+categories: annab
+taginfo:
+  - tag: society
+    description: "AI and Society"
+tags: society
+---
+
+The very expression ‘artificial intelligence’ evokes a combination between a quality we mainly attribute to biological systems—intelligence—and an automated (‘artificial’) process. These two domains are drawn together by an ambition to ‘crack the code’ of some intelligent (human) behaviour, and to use the resulting knowledge to design an artificial system capable of reproducing such a behaviour.
+
+In this sense, it appears natural to assume that artificial intelligence is deeply connected to biological intelligence. And there are notable examples showing that these connections are real and fruitful:  Geoffrey Hinton, acknowledged as one of the ‘godfathers of AI’ and recipient of the 2025 Nobel Prize for Physics, earned a Bachelor of Arts in Experimental Psychology before moving to AI for his PhD. In a similar vein, it is telling that artificial neural networks are so-called because they were largely inspired by biological neural networks. 
+
+At the same time, over-emphasising links between AI and Neuroscience
+—at the level of both expertise and terminology—may result in a narrative that appears compellingly reasonable but is, in fact, quite partial. “Knowledge about the human brain can help us build better AI models.” Or: “As AI models become more advanced, they will become more human-like.” These widespread beliefs convey an optimistic view where AI and Neuroscience exist in a sort of virtuous circle, with advancements in one leading to progress in the other.  In reality, however, the picture is more complicated than that, and being aware of the fundamental differences between human brains and AI systems is crucial to steer clear of common misunderstandings, shameless marketing strategies, and questionable research practises.
+
+Let’s first consider AI’s ‘theoretical debt’ to Neuroscience, i.e., the narrative where breakthroughs in AI-model development are attributed to some sort of ‘brain-inspired’ intuition, with the most recent and splashy example being transformers’* attention mechanism, loosely inspired by human attention. The logic behind this narrative—making AI models more similar to human brains will make them better—appears plausible, and even reasonable, but it is dangerously dismissive of the hard work by AI and machine-learning (ML) engineers. 
+
+In practice, whoever tries to train the simplest of AI models will soon realise that it doesn’t just require ‘a brain-inspired intuition’; it takes long hours of painful debugging, hyperparameter tuning, and architecture tweaking. These may be treated as minor implementation details, but, in fact, they are so fundamental that, in most cases, it is extremely challenging to determine whether the initial ‘brain-inspired intuition’ worked because of the brain inspiration or because of some specific implementation choice. 
+
+On top of that, there is publication bias: We only read about successful brain-inspired AI innovations because those are the ones behind papers that get published or applications that prove profitable. However, for every idea that actually works, there are hundreds of equally ‘brain-inspired’ ones that never make it outside a laboratory or garage. For these reasons, it is extremely misleading to argue that brain-inspired ideas drive technological innovations in AI—even the best brain-inspired ideas need dedicated engineers, a great deal of hard work, some luck, and good timing.
+
+An additional issue of brain inspirations concerns the amount of factuality vs. metaphor implied by the expression. The brain is an extremely complex organ, so complex that there is still a lot we don’t know about it. However, something we do know is that the brain is not a monolithic computational unit—it is, to some extent, modular. In other words, it is responsible for multiple dissociable functions, carried out by (mostly) disjoint brain regions. So, what do we mean when we say that something is ‘brain-inspired’ or ‘brain-like’? Is it mimicking some computations carried out by the hippocampus or by the V1 cortex? Given that the former is involved in memory and the latter in processing low-level visual features, the difference is quite substantial.
+
+Assuming that we want to be more principled, is it then enough to specify the brain area whose inner workings an AI model is trying to reproduce? Unfortunately, even claiming that an artificial system is ‘V1-inspired’ would remain largely ambiguous from a neuroscientific viewpoint. Indeed, the functioning of brain areas can be described at different levels of abstraction: we can look at how single neurons respond to stimuli, at the patterns of activations created by neural populations, at an area’s connectivity with other brain regions, at the behaviours impacted when an area is lesioned, etc. As we don’t yet have a comprehensive “theory of the human brain”, each level of abstraction comes with its own theories and explanations, which are not guaranteed to hold at different levels of abstraction. 
+
+To sum up, considering that many processes happen in the brain and that each can be explained at different granularities, the expression ‘brain-inspired’ is extremely vague. This vagueness can be especially handy in contexts where building a compelling narrative is more important than using technical terms; ideally, scientific publications should not be one of these contexts. Yet, many scientific papers, especially from the AI community, use the expression ‘brain-inspired’ very liberally, hinting at striking convergences between biological and artificial intelligence when, in fact, what they truly mean is along the lines of “Aeroplanes are like birds”—both certainly have wings, but most people would interpret this as a metaphor rather than a scientifically-interesting correspondence.
+
+I’m stressing this because I believe it isn’t just a poor wording choice, but one that can have serious societal consequences. In an era where new terms are coined to describe even the most mundane aspects of our daily lives—from ‘doomscrolling’ to ‘situationship’ to ‘flexitarian’—I can’t help but think that using cognitive and neuroscientific jargon for AI models does not result from a lack of imagination, but rather from deliberate choices. AI products are recently described not only as ‘brain-inspired’, but as ‘reasoning’, ‘thinking’, performing ‘cognitive processes’ or ‘functions’—even ‘introspection’—  and as exhibiting ‘social interactions’.  
+
+I grant that marketing a system as ‘thinking’ as opposed to, e.g., doing ‘think-token-augmented next-word prediction’ is, undeniably, much more appealing. The flipside of this is that it conveys a rather misleading idea of AI to laypeople—and to scientists as well. We may worry that a ‘thinking’ model becomes sentient at some point, or we may trust its advice on sensitive matters; we may even develop friendly or romantic involvement with a ‘thinking’ AI companion. Would we consider the above equally acceptable with a machine doing ‘think-token-augmented next-word prediction’? And, on the academic side, would testing the ‘perception’ and ‘planning’ abilities of a ‘long-generated-context-augmented next-word predictor’ sound as rigorous as testing the same cognitive abilities of a ‘reasoning’ model?
+
+I’m surely not advocating for the widespread use of long, hyper-hyphenated expressions that are painful to parse. However, I do believe that words matter. They certainly matter in the scientific domain, where using technical terms rather than loosely applied metaphors should be the norm. And they also matter in daily conversations, where, just like we started to talk about ‘doomscrolling’,  I’m sure we can start adopting fewer anthropomorphising terms for LLms—especially given that, when it comes to those, it is not just a matter of sounding modern or progressive, but really about shaping the fears, beliefs or behaviours defining people’s attitude towards, and understanding of, generative AI. 
+
+* “Transformers” indicates a type of deep-learning model. Current large language models mostly consist of transformer architectures.  
