@@ -2,7 +2,7 @@
 layout: post
 cover: 'assets/images/neuroscience-ai.png'
 navigation: true
-title: Are recent generative AI models ‘thinking’ thanks to ‘brain-inspired’ design choices?
+title: Are Recent Generative AI Models ‘Thinking’ Thanks to ‘Brain-Inspired’ Design Choices?
 subtitle: A case against using Neuroscience and Cognitive Science expressions to describe gen-AI models
 date: 2026-04-04 15:00:00
 subclass: 'post'
