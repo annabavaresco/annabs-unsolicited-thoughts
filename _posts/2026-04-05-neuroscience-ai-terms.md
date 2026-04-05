@@ -13,8 +13,6 @@ taginfo:
 tags: society
 ---
 
-## A case against using Neuroscience and Cognitive Science expressions to describe gen-AI models
-
 The very expression ‘artificial intelligence’ evokes a combination between a quality we mainly attribute to biological systems—intelligence—and an automated (‘artificial’) process. These two domains are drawn together by an ambition to ‘crack the code’ of some intelligent (human) behaviour, and to use the resulting knowledge to design an artificial system capable of reproducing such a behaviour.
 
 In this sense, it appears natural to assume that artificial intelligence is deeply connected to biological intelligence. And there are notable examples showing that these connections are real and fruitful:  Geoffrey Hinton, acknowledged as one of the ‘godfathers of AI’ and recipient of the 2025 Nobel Prize for Physics, earned a Bachelor of Arts in Experimental Psychology before moving to AI for his PhD. In a similar vein, it is telling that artificial neural networks are so-called because they were largely inspired by biological neural networks. 
