@@ -12,6 +12,7 @@ taginfo:
     description: "AI and Society"
 tags: society
 ---
+## A case against using Neuroscience and Cognitive Science expressions to describe gen-AI models
 
 The very expression ‘artificial intelligence’ evokes a combination between a quality we mainly attribute to biological systems—intelligence—and an automated (‘artificial’) process. These two domains are drawn together by an ambition to ‘crack the code’ of some intelligent (human) behaviour, and to use the resulting knowledge to design an artificial system capable of reproducing such a behaviour.
 
