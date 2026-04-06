@@ -3,7 +3,7 @@ layout: post
 cover: 'assets/images/neuroscience-ai.png'
 navigation: true
 title: Are Recent Generative AI Models ‘Thinking’ Thanks to ‘Brain-Inspired’ Design Choices?
-subtitle: A case against using Neuroscience and Cognitive Science expressions to describe gen-AI models
+subtitle: A case against using Neuroscience and Cognitive Science terminology to describe gen-AI models
 date: 2026-04-05 15:00:00
 subclass: 'post'
 author: annab
